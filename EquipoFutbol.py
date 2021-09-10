@@ -25,3 +25,37 @@ while contador != 4:
 
 print ("La defensa esta conformada por: ") 
 print (Defensa)
+
+# Agregar a los Medio Campistas
+
+print ("A continuación introducirá el nombre de cada mediocampista, recuerde que solo puede poner cuatro.")
+
+contador = 0    
+while contador != 4: 
+    M=input("Ingrese el nombre del mediocampista: ")
+    MedioCampo.append (M)
+    contador = contador+1
+
+print ("El mediocampo esta conformado por: ") 
+print (MedioCampo)
+
+# Agregar a los Delanteros
+
+print ("A continuación introducirá el nombre de cada Delantero, recuerde que solo puede poner dos.")
+
+contador = 0    
+while contador != 2: 
+    G=input("Ingrese el nombre del delantero: ")
+    Delantera.append (G)
+    contador = contador+1
+
+print ("La delantera esta conformada por: ") 
+print (Delantera)
+
+#Equipo Completo
+
+print("Los once titulares para este partido son: ")
+print(Arquero)
+print(Defensa)
+print(MedioCampo)
+print(Delantera)
